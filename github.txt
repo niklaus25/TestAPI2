@@ -10,4 +10,13 @@ git reset --hard upstream/main
 
 
 To squash the commits into 1 single commit rebase is used:
-
+1)  git log 
+2) copy the first commit from where you will merge 
+3) git rebase -i "the id of the commit"
+4) you can see the commits now from which you can pick 1 and then below that add s to squash commits 
+like 
+pick 1 
+s 2 
+s 3 
+pick 4 
+here 1 2 3 commits will be one 
