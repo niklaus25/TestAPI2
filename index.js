@@ -37,6 +37,7 @@ const connectDB = async () => {
 
 connectDB();
 
+// Adding the new branch and testing the changes for test
 
 app.use(express.json());
 app.use(helmet());
