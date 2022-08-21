@@ -1,0 +1,13 @@
+Now to make sure that my master branch is always in sync with the master branch of person , 
+I have  forked the repository
+
+
+I can do fetch upstream or I can use following commands:
+
+git fetch -all --prune
+
+git reset --hard upstream/main
+
+
+To squash the commits into 1 single commit rebase is used:
+
