@@ -37,8 +37,11 @@ const connectDB = async () => {
 
 connectDB();
 
-// Adding this changes in test branch which will be merged into dev branch ,  new Changes
-// From the New branch rehandev @authtor :  Rehaan Redkar
+// @authtor :  Niklaus
+// I have removed older changes and forked this project now I will make changes and create a pull request 
+// This pull request will be reviewed from rehaan's account
+
+
 
 app.use(express.json());
 app.use(helmet());
